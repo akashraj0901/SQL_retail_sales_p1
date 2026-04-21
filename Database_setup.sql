@@ -19,9 +19,10 @@ total_sale int
 -- import data (Right click on retail_sales table and import the data)
 select * from retail_sales;
 -- to check the data is imported properly
-
+SHOW WARNINGS;
 -- count the data to check all the data is exported sucessfully
 select count(*) from retail_sales;
+
 
 -- Data cleaning
 
@@ -74,4 +75,3 @@ or
 cogs is null
 or total_sale is null;
 
--- Data Exploration
